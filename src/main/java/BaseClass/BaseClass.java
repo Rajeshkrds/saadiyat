@@ -46,7 +46,7 @@ public class BaseClass {
 			driver.close();
 		}
 		
-//		driver.findElement(By.xpath("//button[contains(text(),'Accept All')]")).click();
+		driver.findElement(By.xpath("//button[contains(text(),'Accept All')]")).click();
 	}
 
 	@AfterMethod

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testScripts.events_Page">
+        <methods>
+          <include name="category_filter_functionality_tc"/>
+          <include name="filters"/>
+          <include name="date_filter_functionality_tc"/>
+          <include name="venue_and_category_filter_functionality_tc"/>
+          <include name="events_page_tc"/>
+          <include name="launch_browser"/>
+          <include name="venue_filter_functionality_tc"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- testScripts.events_Page -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

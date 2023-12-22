@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-12-20T17:50:33 IST" name="Default suite" finished-at="2023-12-20T18:00:39 IST" duration-ms="605845">
+    <groups>
+    </groups>
+    <test started-at="2023-12-20T17:50:33 IST" name="Default test" finished-at="2023-12-20T18:00:39 IST" duration-ms="605845">
+      <class name="testScripts.events_Page">
+        <test-method is-config="true" signature="launch_browser()[pri:0, instance:testScripts.events_Page@12468a38]" started-at="2023-12-20T17:50:33 IST" name="launch_browser" finished-at="2023-12-20T17:50:48 IST" duration-ms="14845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch_browser -->
+        <test-method signature="events_page_tc()[pri:0, instance:testScripts.events_Page@12468a38]" started-at="2023-12-20T17:50:48 IST" name="events_page_tc" finished-at="2023-12-20T18:00:39 IST" duration-ms="590784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- events_page_tc -->
+        <test-method is-config="true" signature="close_browser(org.testng.ITestResult)[pri:0, instance:testScripts.events_Page@12468a38]" started-at="2023-12-20T18:00:39 IST" name="close_browser" finished-at="2023-12-20T18:00:39 IST" duration-ms="171" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=events_page_tc status=SUCCESS method=events_Page.events_page_tc()[pri:0, instance:testScripts.events_Page@12468a38] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close_browser -->
+      </class> <!-- testScripts.events_Page -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

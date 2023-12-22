@@ -22,6 +22,17 @@ public class BaseClass {
 	@BeforeTest
 	@SuppressWarnings("deprecation")
 	public void launch_browser() throws IOException {
+		
+//		if (br.equals("chrome")) {
+//			WebDriverManager.chromedriver().setup();
+//			driver = new ChromeDriver();
+//		} else if (br.equals("firefox")) {
+//			WebDriverManager.firefoxdriver().setup();
+//			driver = new FirefoxDriver();
+//		} else if (br.equals("microsoft")) {
+//			WebDriverManager.edgedriver().setup();
+//			driver = new EdgeDriver();
+//		}
 		String prodURL = "https://saadiyatisland.ae/";
 		String stagingURL = "https://saadiyat-island-bedrock.dev.kacdn.net/";
 
